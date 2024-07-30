@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <main class="mobile-view">
+            <section class="card js-card">
+                <div class="search-box">
+                    <input type="text" name="search" id="input-area" placeholder="Enter your city">
+
+                    <span class="search-icon js-search-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5636/5636698.png" alt="search">
+                    </span>
+                </div>
+
+                <div class="weather-data">
+                    <span class="weather-icon js-weather-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4814/4814275.png" alt="Clear">
+                        <p>Clear Sky</p>
+                    </span>
+                    <span class="temperature js-temperature">22.4 °C
+                        </span>
+                    <span class="city-name js-city-name">New York</span>
+                </div>
+
+                <footer class="other-info">
+                    <div class="humidity">
+                        <img src="https://cdn-icons-png.flaticon.com/512/578/578135.png" alt="Humidity-icon">
+                        <span class="humidity-details">
+                            <p>Humidity</p>
+                            <p class="js-humidity-data">34%</p>
+                        </span>
+                        
+                    </div>
+                    <div class="wind">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6232/6232535.png" alt="Wind">
+                        <span class="wind-details">
+                            <p>Wind</p>
+                            <p class="js-wind-speed">23 km/h</p>
+                        </span>
+                    </div>
+                </footer>
+            </section>
+        </main>
+
+    </body>
+    <script src="script.js"></script>
+</html>
